@@ -7,6 +7,8 @@ function  App() {
     useEffect(() => {
         tg.ready();
     }, [])
+
+
     const onClose = () => {
         tg.close();
     }
